@@ -85,10 +85,6 @@ app.get("/:customListName", function(req, res){
 });
 
 
-
-
-
-
 app.post("/", function(req, res){
 
 const itemName = req.body.newItem;
